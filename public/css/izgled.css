@@ -1,0 +1,231 @@
+@font-face {
+    font-family: rektec;
+    src: url("/public/fonts/Rektec.otf");
+}
+html{
+    scroll-behavior: smooth;
+}
+h2{
+    color:white!important;
+}
+body
+{
+    color:rgb(141, 141, 141)!important;
+        background: black!important;
+    padding: 0;
+    margin: 0;
+}
+section
+{
+    height: 100%;
+    width: 100%;
+    background: black;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.welcomeSection .leftPart
+{
+    background: black;
+}
+.welcomeSection .leftPart .orangeRibbon
+{
+    height: 35px;
+    background: #f76600;
+}
+.welcomeSection .leftPart .nameTitle
+{
+    height: calc(100% - 70px);
+    padding-top: 20px;
+
+}
+.welcomeSection .leftPart .nameTitle .image
+{
+}
+.welcomeSection .leftPart .nameTitle .image .monitor
+{
+    width: 200px;
+}
+.welcomeSection .leftPart .nameTitle .image .imageOnMonitor
+{
+    position: absolute;
+    width: 164px;
+    left:calc(50% - 82px);
+    top:38px;
+}
+
+.welcomeSection .leftPart .nameTitle .title
+{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: #f76600;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-family: Calibri;
+    font-weight: bold;
+    text-align: left;
+    font-size: 100px;
+    -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+    line-height:90px;
+}
+.welcomeSection .leftPart .nameTitle .subtitle
+{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: white;
+    border-right:2px solid #f76600;
+    font-family: Calibri;
+
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 70px;
+    font-size: 30px;
+    text-align: left;
+    -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+}
+.profileSection
+{
+    background: black;
+}
+.profileSection .rightPart
+{
+    font-size: 60px;
+    color: #f76600;
+    text-align: center;
+    font-style: italic;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.welcomeSection .rightPart
+{
+    height: 100%;
+    display: grid;
+
+}
+.welcomeSection .rightPart h1
+{
+    color:#f76600;
+    padding: 20px;
+}
+
+.welcomeSection .rightPart h5
+{
+    color: white;
+    height: 100%;
+    font-style: italic;
+
+    }
+
+.educationItem .educationTimeElement
+{
+    font-style: oblique;
+    font-size: 20px;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.round {
+    transform: scale(1.5,1.5) rotate(90deg);
+
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+margin: auto;
+
+}
+.cta{
+    width:100%; cursor: pointer; position: absolute;
+}
+
+.cta .arrow{left: 30%;}
+.arrow {position: absolute; bottom: 0;  margin-left:0px; width: 12px; height: 12px; background-size: contain; top:14px;}
+.segunda{margin-left: 8px;}
+.next {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHN0eWxlPi5zdDB7ZmlsbDojZmZmfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTMxOS4xIDIxN2MyMC4yIDIwLjIgMTkuOSA1My4yLS42IDczLjdzLTUzLjUgMjAuOC03My43LjZsLTE5MC0xOTBjLTIwLjEtMjAuMi0xOS44LTUzLjIuNy03My43UzEwOSA2LjggMTI5LjEgMjdsMTkwIDE5MHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzE5LjEgMjkwLjVjMjAuMi0yMC4yIDE5LjktNTMuMi0uNi03My43cy01My41LTIwLjgtNzMuNy0uNmwtMTkwIDE5MGMtMjAuMiAyMC4yLTE5LjkgNTMuMi42IDczLjdzNTMuNSAyMC44IDczLjcuNmwxOTAtMTkweiIvPjwvc3ZnPg==);
+}
+
+@keyframes bounceAlpha {
+    0% {opacity: 1; transform: translateX(0px) scale(1);}
+    25%{opacity: 0; transform:translateX(10px) scale(0.9);}
+    26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
+    55% {opacity: 1; transform: translateX(0px) scale(1);}
+}
+
+.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.arrow.primera.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.round:hover .arrow{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+.round:hover .arrow.primera{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
