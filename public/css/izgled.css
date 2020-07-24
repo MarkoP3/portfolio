@@ -4,6 +4,7 @@
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 h2{
     color:white!important;
@@ -17,13 +18,11 @@ body
 }
 section
 {
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     background: black;
     padding: 0;
     margin: 0;
-    overflow: hidden;
-    overflow-y: auto;
 }
 .welcomeSection .leftPart
 {
@@ -39,9 +38,6 @@ section
     height: calc(100% - 70px);
     padding-top: 20px;
 
-}
-.welcomeSection .leftPart .nameTitle .image
-{
 }
 .welcomeSection .leftPart .nameTitle .image .monitor
 {
@@ -94,11 +90,12 @@ section
 }
 .profileSection
 {
+    min-height: ;
     background: black;
 }
 .profileSection .rightPart
 {
-    font-size: 60px;
+    font-size: 10vh;
     color: #f76600;
     text-align: center;
     font-style: italic;
@@ -107,7 +104,6 @@ section
 }
 .welcomeSection .rightPart
 {
-    height: 100%;
     display: grid;
 
 }
