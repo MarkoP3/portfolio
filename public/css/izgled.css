@@ -20,13 +20,13 @@ section
 {
     min-height: 100%;
     width: 100%;
-    background: black;
+    background: transparent;
     padding: 0;
     margin: 0;
 }
 .welcomeSection .leftPart
 {
-    background: black;
+    background: transparent;
 }
 .welcomeSection .leftPart .orangeRibbon
 {
@@ -88,10 +88,16 @@ section
     -ms-transform: scale(-1, -1);
     transform: scale(-1, -1);
 }
+    #particles-js{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
 .profileSection
 {
-    min-height: ;
-    background: black;
+ 
+    background: transparent;
 }
 .profileSection .rightPart
 {
