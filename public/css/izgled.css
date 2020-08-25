@@ -134,6 +134,15 @@ section
     color:white;
 }
 
+.personalProjects li{
+    padding-bottom: 20px!important;
+    padding-top: 20px!important;
+}
+.technologies .btn{
+    padding:20px
+}
+
+
 
 
 
